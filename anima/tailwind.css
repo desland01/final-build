@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  input,
+  select,
+  textarea {
+    @apply appearance-none bg-transparent border-0 outline-none;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --grovestreetpainting-com-inter-bold-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-inter-bold-font-size: 20px;
+  --grovestreetpainting-com-inter-bold-font-style: normal;
+  --grovestreetpainting-com-inter-bold-font-weight: 700;
+  --grovestreetpainting-com-inter-bold-letter-spacing: 0px;
+  --grovestreetpainting-com-inter-bold-line-height: 28px;
+  --grovestreetpainting-com-inter-medium-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-inter-medium-font-size: 17.859375px;
+  --grovestreetpainting-com-inter-medium-font-style: normal;
+  --grovestreetpainting-com-inter-medium-font-weight: 500;
+  --grovestreetpainting-com-inter-medium-letter-spacing: 0px;
+  --grovestreetpainting-com-inter-medium-line-height: 30.600000381469727px;
+  --grovestreetpainting-com-inter-medium-upper-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-inter-medium-upper-font-size: 12px;
+  --grovestreetpainting-com-inter-medium-upper-font-style: normal;
+  --grovestreetpainting-com-inter-medium-upper-font-weight: 500;
+  --grovestreetpainting-com-inter-medium-upper-letter-spacing: 0px;
+  --grovestreetpainting-com-inter-medium-upper-line-height: 20px;
+  --grovestreetpainting-com-inter-regular-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-inter-regular-font-size: 36px;
+  --grovestreetpainting-com-inter-regular-font-style: normal;
+  --grovestreetpainting-com-inter-regular-font-weight: 400;
+  --grovestreetpainting-com-inter-regular-letter-spacing: 0px;
+  --grovestreetpainting-com-inter-regular-line-height: 40px;
+  --grovestreetpainting-com-inter-regular-upper-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-inter-regular-upper-font-size: 12px;
+  --grovestreetpainting-com-inter-regular-upper-font-style: normal;
+  --grovestreetpainting-com-inter-regular-upper-font-weight: 400;
+  --grovestreetpainting-com-inter-regular-upper-letter-spacing: 0px;
+  --grovestreetpainting-com-inter-regular-upper-line-height: 20px;
+  --grovestreetpainting-com-inter-semi-bold-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-inter-semi-bold-font-size: 17.296875px;
+  --grovestreetpainting-com-inter-semi-bold-font-style: normal;
+  --grovestreetpainting-com-inter-semi-bold-font-weight: 600;
+  --grovestreetpainting-com-inter-semi-bold-letter-spacing: 0px;
+  --grovestreetpainting-com-inter-semi-bold-line-height: 28px;
+  --grovestreetpainting-com-semantic-button-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-button-font-size: 17.4375px;
+  --grovestreetpainting-com-semantic-button-font-style: normal;
+  --grovestreetpainting-com-semantic-button-font-weight: 700;
+  --grovestreetpainting-com-semantic-button-letter-spacing: 0px;
+  --grovestreetpainting-com-semantic-button-line-height: 28px;
+  --grovestreetpainting-com-semantic-button-upper-font-family: "Open Sans",
+    Helvetica;
+  --grovestreetpainting-com-semantic-button-upper-font-size: 14px;
+  --grovestreetpainting-com-semantic-button-upper-font-style: normal;
+  --grovestreetpainting-com-semantic-button-upper-font-weight: 600;
+  --grovestreetpainting-com-semantic-button-upper-letter-spacing: 0.5px;
+  --grovestreetpainting-com-semantic-button-upper-line-height: 25.600000381469727px;
+  --grovestreetpainting-com-semantic-heading-1-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-heading-1-font-size: 45.375px;
+  --grovestreetpainting-com-semantic-heading-1-font-style: normal;
+  --grovestreetpainting-com-semantic-heading-1-font-weight: 700;
+  --grovestreetpainting-com-semantic-heading-1-letter-spacing: -1.2000000476837158px;
+  --grovestreetpainting-com-semantic-heading-1-line-height: 60px;
+  --grovestreetpainting-com-semantic-heading-2-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-heading-2-font-size: 34.03125px;
+  --grovestreetpainting-com-semantic-heading-2-font-style: normal;
+  --grovestreetpainting-com-semantic-heading-2-font-weight: 700;
+  --grovestreetpainting-com-semantic-heading-2-letter-spacing: 0px;
+  --grovestreetpainting-com-semantic-heading-2-line-height: 40px;
+  --grovestreetpainting-com-semantic-heading-3-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-heading-3-font-size: 24px;
+  --grovestreetpainting-com-semantic-heading-3-font-style: normal;
+  --grovestreetpainting-com-semantic-heading-3-font-weight: 700;
+  --grovestreetpainting-com-semantic-heading-3-letter-spacing: 0px;
+  --grovestreetpainting-com-semantic-heading-3-line-height: 32px;
+  --grovestreetpainting-com-semantic-heading-4-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-heading-4-font-size: 17.859375px;
+  --grovestreetpainting-com-semantic-heading-4-font-style: normal;
+  --grovestreetpainting-com-semantic-heading-4-font-weight: 700;
+  --grovestreetpainting-com-semantic-heading-4-letter-spacing: 0px;
+  --grovestreetpainting-com-semantic-heading-4-line-height: 28px;
+  --grovestreetpainting-com-semantic-input-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-input-font-size: 15.375px;
+  --grovestreetpainting-com-semantic-input-font-style: normal;
+  --grovestreetpainting-com-semantic-input-font-weight: 400;
+  --grovestreetpainting-com-semantic-input-letter-spacing: 0px;
+  --grovestreetpainting-com-semantic-input-line-height: normal;
+  --grovestreetpainting-com-semantic-item-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-item-font-size: 15.375px;
+  --grovestreetpainting-com-semantic-item-font-style: normal;
+  --grovestreetpainting-com-semantic-item-font-weight: 400;
+  --grovestreetpainting-com-semantic-item-letter-spacing: 0px;
+  --grovestreetpainting-com-semantic-item-line-height: 25.600000381469727px;
+  --grovestreetpainting-com-semantic-link-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-link-font-size: 19.21875px;
+  --grovestreetpainting-com-semantic-link-font-style: normal;
+  --grovestreetpainting-com-semantic-link-font-weight: 700;
+  --grovestreetpainting-com-semantic-link-letter-spacing: 0px;
+  --grovestreetpainting-com-semantic-link-line-height: 28px;
+  --grovestreetpainting-com-semantic-link-upper-font-family: "Open Sans",
+    Helvetica;
+  --grovestreetpainting-com-semantic-link-upper-font-size: 14px;
+  --grovestreetpainting-com-semantic-link-upper-font-style: normal;
+  --grovestreetpainting-com-semantic-link-upper-font-weight: 600;
+  --grovestreetpainting-com-semantic-link-upper-letter-spacing: 0.5px;
+  --grovestreetpainting-com-semantic-link-upper-line-height: 25.600000381469727px;
+  --grovestreetpainting-com-semantic-strong-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-strong-font-size: 19.21875px;
+  --grovestreetpainting-com-semantic-strong-font-style: normal;
+  --grovestreetpainting-com-semantic-strong-font-weight: 700;
+  --grovestreetpainting-com-semantic-strong-letter-spacing: 0px;
+  --grovestreetpainting-com-semantic-strong-line-height: 32.5px;
+  --grovestreetpainting-com-semantic-textarea-font-family: "Inter", Helvetica;
+  --grovestreetpainting-com-semantic-textarea-font-size: 15.25px;
+  --grovestreetpainting-com-semantic-textarea-font-style: normal;
+  --grovestreetpainting-com-semantic-textarea-font-weight: 400;
+  --grovestreetpainting-com-semantic-textarea-letter-spacing: 0px;
+  --grovestreetpainting-com-semantic-textarea-line-height: 24px;
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
